@@ -2,7 +2,7 @@ fn main() {
     let mut x = 5;
     println!("The value of x is: {}", x);
 
-    This will lead to an error!
+    // This will lead to an error if `mut` was not used!
     x = 6;
     println!("The value of x is: {}", x);
 
